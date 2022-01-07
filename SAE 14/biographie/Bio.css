@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;1,200&family=Sulphur+Point:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2? family=IBM+Plex+Sans:wght@300&display=swap');
+
+html {
+    scroll-behavior: smooth; /*effet de douceur quand bouton de retour au début de page utilisé*/
+}
+
+/* PARTIE GENERAL BODY*/
+/*#######*/
+body {
+    margin: auto;/*marges en auto pour avoir le même écart de chaque côté*/
+}
+/*#######*/
+/*FIN PARTIE GENERAL BODY*/
+
+/*DEBUT PARTIE HEADER*/
+/*#######*/
+
+/*general liste*/
+.lien {
+    font-family: 'Sulphur Point';
+    padding-top: 2%;
+    padding-bottom: 1%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: black;
+}
+/*fin general liste*/
+
+/*general lien*/
+.out {
+    text-decoration: none;
+    color: white;
+}
+/*fin general lien*/
+
+/*apparence lien pendant survole -> grossissement du lien*/
+.out:hover {
+    font-size: 115%;
+    transition-duration: 0.4s;
+}
+
+/*general tete*/
+.tete {
+    display:flex;
+    align-items: center;/*alignement texte*/
+}
+/*fin general tete*/
+
+/*position + taille image moii*/
+.moii {
+    width: 40%;
+    height: 80%;
+    margin: 8%;
+    margin-top: 5%;
+}
+
+.nom {
+    font-family: 'Sulphur Point';
+    font-size:350%;
+}
+/*FIN PARTIE HEADER*/
+/*#######*/
+
+
+
+/*DEBUT PARTIE CORPS*/
+/*#######*/
+
+/*general corps*/
+.corps {
+    font-family: 'Poppins';
+}
+/*fin genral corps*/
+
+/*general h2*/
+h2 {
+    font-family: 'Sulphur Point';
+    text-align: center;
+    font-size: 300%;
+}
+/*fin general h2*/
+
+/*general h3*/
+h3 {
+    padding-left: 5%;
+    padding-top: 3%;
+    font-size:200%;
+    margin-left: 10%;
+    margin-bottom: 0%;
+}
+/*fin general h3*/
+
+/*DEBUT SECTION*/
+
+/*section moi*/
+.moi {
+   padding: 14rem;
+   font-family: 'poppins';
+   text-align:center;
+}
+
+.moi p {
+    font-size: 90%;
+}
+
+/*apparence section pendant survole des titres*/
+.moi:hover {
+    background-color: black;
+    color:white;
+    transition-duration: 0.6s;
+}
+/*fin section moi*/
+
+/*section sports*/
+.sports {
+    display:flex;
+}
+
+/*general article sports*/
+article {
+    margin: 2rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 15px;
+    background-color: black;
+    color:white;
+}
+
+article p {
+    font-size: 70%;
+}
+/*fin general article sport*/
+/*fin section sports*/
+
+/*section art*/
+.art {
+    padding: 4rem;
+    padding-top: 2%;
+    margin-left: 6%;
+}
+
+.art p {
+    font-size: 90%;
+}
+
+/*general lien claude*/
+.claude {
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+/*fin general lien claude*/
+
+.claude::after {/*apparence souslignage pendant survole du lien*/
+    content: '';
+    transform-origin: 0 0; 
+    transform: scaleX(0);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: .4em; 
+    background: #e94c66;
+    z-index: -1;
+    opacity: 0.8;
+    transition: transform 0.3s;
+}
+.claude:hover::after {
+    transform: scaleX(1);
+}
+/*fin section art*/
+
+/*section scolarite*/
+.scolarite {
+    display:flex;
+    align-items: center;
+    padding-right: 3%;
+    font-size:90%;
+}
+
+/*position + taille image classe*/
+.classe {
+    width: 70%;
+    height: 80%;
+    margin: 3%;
+}
+/*section scolarite*/
+
+
+/*FIN PARTIE CORPS*/
+/*#######*/
+
+
+/* DEBUT PARTIE FOOTER*/
+/*#######*/
+
+/*general footer*/
+footer {
+    font-size: 45%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:black;
+    color: white;
+}
+/*fin general footer*/
+
+/*DEBUT CONTACT*/
+/*listes pour me contacter*/
+.contact {
+    font-family: 'Poppins';
+    font-size: 200%;
+    font-weight: 700;
+}
+/*FIN CONTACT*/
+
+
+/*#######*/
+/*FIN PARTIE FOOTER*/
+

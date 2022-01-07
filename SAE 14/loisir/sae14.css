@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');/*Poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');/*Sulphur Point*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* PARTIE GENERAL BODY*/
+/*#######*/
+body {
+    margin:auto;
+    width: 80%;/*règle marges général -> sa largeur*/
+    background-color: #FFF8F0;
+}
+/*#######*/
+/*FIN PARTIE GENERAL BODY*/
+
+/*DEBUT PARTIE HEADER*/
+/*#######*/
+
+/*general header*/
+header {
+   background-image: url('Sommer.jpg');
+   padding-bottom: 8%;
+}
+/*fin general header*/
+
+/*div lien*/
+.lien {
+    font-family: 'Oxygen';
+    padding-top: 1.5%;
+    padding-bottom: 1.3%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color: #2D2D2A;
+}
+
+a {/*apparence souslignage avant survole*/
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(to top, rgba(248, 253, 250, 0.5) 0%,rgba(248, 253, 250, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+    transition: background-size .5s;
+}
+  a:hover {/*apparence souslignage pendant survole des titres*/
+    background-size: 100% 100%;/*fait apparaitre souslignage*/
+}
+/*fin div lien*/
+
+
+/*section tete*/
+.tete {
+   margin: 20% 7rem 9% 7rem;
+   background-color: #2D2D2A;
+   text-align: center;/*alignement texte*/
+   color:azure;
+   font-family: 'Poppins';
+   padding: 0 2rem 0.5rem 2rem;
+}
+.tete p {
+    padding-top: 1%;
+    border-top: 0.2rem solid rgba(255, 255, 255, 0.6);
+    font-style: italic;
+    font-size: 90%;
+    font-weight: bold;
+}
+/*fin section tete*/
+
+/*general h1*/
+h1 {
+    font-size: 400%;
+    margin-bottom: -2%;
+}
+/*FIN PARTIE HEADER*/
+/*#######*/
+
+
+
+/*DEBUT PARTIE MAIN*/
+/*#######*/
+
+/*general h2*/
+h2 {
+    font-size: 200%;
+    background-image: linear-gradient(to bottom, rgba(145, 206, 150, 0.479) 33%, transparent 33%, transparent 66%, rgba(145, 206, 150, 0.479) , rgba(145, 206, 150, 0.479) );
+    background-position: 0 1.03em;
+    background-size: 2px 6px;
+}
+
+/*general main*/
+.main {
+    text-align: center;
+    font-family: 'Poppins';
+    color:#2D2D2A;
+}
+/*main general main*/
+
+
+
+/*DEBUT SECTION*/
+/*general section*/
+section {
+    background-color:#EEF5DB; 
+}
+/*fin general section*/
+
+
+/*debut sect1*/
+.sect1 {
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 0%;
+}
+
+.art2 {
+    margin-right: 4%;
+    font-size: 110%;
+}
+
+.art1 {
+    font-size: 60%;
+}
+
+/*general img*/
+img {
+    width: 60%;
+    height: 80%;
+    margin: 6% 8% 1% 8%;
+}
+/*fin sect1*/
+
+
+/*sect2*/
+.sect2 {
+    margin-top: 15%;
+    padding: 10% 20%;
+    margin-bottom: 10%;
+    font-size: 110%;
+}
+/*fin sect2*/
+
+
+/*sect3*/
+.sect3 {
+    margin-top: 12%;
+    font-size: 110%;
+    padding: 5% 10% 7% 10%;
+}
+
+/*general h3*/
+h3 {
+    padding-left: 4%;
+    font-size: 140%;
+}
+
+.pourquoi {
+    text-align: justify;
+    font-size: 90%;
+    padding-top: 1%;
+}
+
+.exemp {
+    text-align: justify;
+    font-size: 90%;
+}
+/*fin sect3*/
+
+
+/*sect o1*/
+.o1{
+    display:flex;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 0%;
+}
+
+/*position + taille image1*/
+.img1 {
+    width: 110%;
+    height: 80%;
+}
+
+.havre p {
+    text-align: center;
+    font-size: 60%;
+    margin-top: 0%;
+}
+
+.explication1 {
+    font-size: 90%;
+    text-align: justify;
+    margin-left: 7%;
+    margin-right: 4%;
+}
+/*fin sect o1*/
+
+
+/*sect o2*/
+.o2 {
+    display:flex;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 0%;
+}
+
+/*position + taille image2*/
+.img2 {
+    width: 100%;
+    height: 80%;
+    padding-right: 3%;
+    margin-left: 0%;
+}
+
+.coq {
+    text-align: center;
+    font-size: 60%;
+    margin-top: 0%;
+
+}
+.explication2 {
+    font-size: 80%;
+    text-align: justify;
+    margin-left: 2.5%;
+    margin-right: 1%;
+}
+/*fin sect o2*/
+
+
+/*sect o3*/
+.o3 {
+    display:flex;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 0%;
+}
+
+/*position + taille image3*/
+.img3 {
+    width: 120%;
+    height: 80%;
+}
+
+.bateau p {
+    text-align: center;
+    font-size: 60%;
+    margin-top: 0%;
+}
+
+.explication3 {
+    font-size: 90%;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 4%;
+}
+/*fin sect o3*/
+
+/*#######*/
+/*FIN PARTIE MAIN*/
+
+
+
+/* DEBUT PARTIE FOOTER*/
+/*#######*/
+
+
+/*general footer*/
+footer {
+    display: flex;
+    list-style: none;
+    font-family: 'Oxygen';
+    font-size: 80%;
+    justify-content: space-around;/*espace entre liste +titre*/
+    align-items: center;
+    background-color: #2D2D2A;
+    color: white;
+    margin-top: 2%;
+    padding: 1% 0 1.5% 0;
+}
+/*fin general footer*/
+
+
+/*#######*/
+/*FIN PARTIE FOOTER*/
